@@ -162,3 +162,15 @@ A beautiful and animated bottom navigation. The navigation bar use your current 
     const bottomNav = new BottomNavigation('bottom-navigation');
 </script>
 ```
+### toast
+Make a toast. a simple message in bottom
+```html
+<link rel="stylesheet" href="/toast/style.css">
+<script src="/toast/script.js"></script>
+<body>
+<script>
+    const toast = new Toast();
+    toast.show("This is a toast message", 3000); // Message, duration in milliseconds
+</script>
+</body>
+```
