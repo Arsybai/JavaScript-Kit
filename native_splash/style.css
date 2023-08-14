@@ -1,0 +1,25 @@
+/* Splash screen styles */
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Higher z-index to ensure it's on top */
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.splash-content {
+    font-size: 24px;
+}
+
+/* Hide the content initially */
+.content {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}

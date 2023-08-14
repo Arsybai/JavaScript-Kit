@@ -1,0 +1,17 @@
+/* Styling for the refresh container */
+.refresh-container {
+    overflow: hidden;
+}
+
+.refresh-content {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* Additional styles for the pull-to-refresh indicator */
+.refresh-indicator {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}

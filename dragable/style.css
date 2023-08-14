@@ -1,0 +1,15 @@
+.draggable {
+    position: absolute;
+    cursor: grab; /* Set cursor to indicate the element is draggable */
+    user-select: none; /* Prevent text selection while dragging */
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 100px;
+}
+
+.draggable.dragging {
+    cursor: grabbing; /* Set cursor when the element is being dragged */
+}

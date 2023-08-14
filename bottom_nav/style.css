@@ -1,0 +1,54 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the bottom navigation and items */
+.bottom-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #007bff;
+}
+
+.active {
+    color: #007bff;
+}
+
+/* Optional: Add a subtle animation effect */
+.nav-item .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.nav-item .label {
+    font-size: 12px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.nav-item.active .label {
+    opacity: 1;
+}

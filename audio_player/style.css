@@ -1,0 +1,5 @@
+/* Styling for the audio player container */
+.audio-player {
+    max-width: 300px;
+    margin: 20px auto;
+}
