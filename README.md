@@ -174,3 +174,11 @@ Make a toast. a simple message in bottom
 </script>
 </body>
 ```
+
+### click_to_copy
+with the "copy" class and using the Clipboard API to copy the text within that element.
+```html
+<p class="copy">Click to copy this text.</p>
+<p class="copy">Copy me too!</p>
+<script src="/click_to_copy/script.js"></script>
+```
