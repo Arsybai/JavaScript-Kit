@@ -191,3 +191,13 @@ Make floating button for share the page.
     const shareButton = new ShareButtonPlugin();
 </script>
 ```
+
+### cookie_consent
+JavaScript popup for cookie consent that appears in the bottom right corner of the screen involves creating the popup element, adding content and buttons, handling user interactions, and storing user preferences (accept or decline) in local storage.
+```html
+<link rel="stylesheet" href="/cookie_consent/style.css">
+<script src="/cookie_consent/script.js"></script>
+<script>
+    const cookiePopup = new CookieConsentPopup("This website uses cookies to improve your experience.");
+</script>
+```
