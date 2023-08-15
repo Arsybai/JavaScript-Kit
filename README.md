@@ -182,3 +182,12 @@ with the "copy" class and using the Clipboard API to copy the text within that e
 <p class="copy">Copy me too!</p>
 <script src="/click_to_copy/script.js"></script>
 ```
+
+### share_button
+Make floating button for share the page.
+```html
+<script src="/share_button/script.js"></script>
+<script>
+    const shareButton = new ShareButtonPlugin();
+</script>
+```
