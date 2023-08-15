@@ -1,6 +1,8 @@
 # JavaScript-Kit
 I make this actualy for personal use, but you can use it also.
 
+is a comprehensive and dynamic collection of JavaScript resources designed to empower web developers with the tools they need to create interactive and engaging web experiences. With a vast array of code snippets, libraries, and tutorials, JavaScript-Kit serves as a go-to hub for developers seeking to harness the power of JavaScript to enhance their projects. Whether you're a beginner exploring the world of web development or an experienced coder seeking new techniques, JavaScript-Kit provides a wealth of knowledge to elevate your skills and create modern, feature-rich websites and applications.
+
 ## How to use it
 I'll describe all of this one by one
 
